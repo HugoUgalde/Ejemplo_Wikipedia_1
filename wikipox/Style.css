@@ -1,0 +1,27 @@
+h1,h2{
+    color:rgba(240, 248, 255, 0.849);
+    border-bottom: 1px solid white;
+}
+body {
+    background: #ADD100;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7B920A, #ADD100);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7B920A, #ADD100); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+table{
+    border-collapse: collapse;
+    width: auto;
+    border: 3px solid black;
+    background-color: pinky;
+}
+th, td{
+
+    border: 3px solid black;
+    padding: 8px;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    width: 15%; /* Ajusta el tamaño de la imagen */
+}
